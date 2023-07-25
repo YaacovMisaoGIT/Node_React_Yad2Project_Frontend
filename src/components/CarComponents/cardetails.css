@@ -2,7 +2,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    /* overflow: hidden; */
     font-family: Rubik,sans-serif
 }
  
@@ -10,93 +9,9 @@
   margin-top: 0px ;
 }
 .hero--container{
-  /* width:40px; */  
   margin-left: -44rem;
 } 
-
-/* .hero:hover span {
-    display: none;
-} */
-
-/* .hero:hover:after {
-    margin-top: 10px;
-    content: "Click for details";
-    color: #FF7100;
-    font-weight: bolder;
-    cursor: pointer;
-} */
-
  
-
-/* .hero:hover {
-    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
-}
-
-.cardetails--container {
-    margin-left: -20rem;
-}
-
- 
-.hero--container img {
-    margin-left: 64em;
-    margin-top: -4.1em;
-    margin-bottom: em;
-    width: 150px;
-    height: 90px;
-    border-radius: 4%;
-}
-
-.imgWhiteLogo {
-    position: relative;
-    top: -15px;
-    max-width: 1.5em;
-    max-height: 1.5em;
-}
-
-.vital_info {
-    margin-left: 20rem;
-    display: flex;
-    column-gap: 10px;
-    font-family: Rubik, sans-serif;
-    font-size: 18px;
-
-}
-
-.lower_vital_info {
-    display: flex;
-    justify-content: space-around;
-    border: 1px solid rgba(0, 0, 0, .3);
-}
-
-.divider--enginesize {
-    display: flex;
-    margin-left: 0px;
-    margin-right: -2px;
-    gap: 21px;
-}
-
-.lower_vital_info_tag {
-    font-family: Rubik, sans-serif;
-    margin-top: -3.7rem;
-    display: flex;
-    margin-left: 205px;
-    gap: 12px;
-} */
-
-.hr--price {
-    /* width: 2px;  
-      background-color: black;  
-      height: 100%;  
-      float: left;   */
-}
-
-/* .vl {
-    margin-left: 90px;
-    margin-top:-30px;
-border-left: 1.5px solid #D3D3D3;
-height: 102px;
-}
-  */
 .divider--price {
     margin-left: 15rem; 
     margin-right: 8rem; 
@@ -104,22 +19,12 @@ height: 102px;
 .updated_today{
   margin-left: 13rem; 
 }
-.divider--year {
-    /* margin-right: 100px; */
-}
+ 
 
 .hero:hover {
     cursor: pointer;
 }
 
-.hero:focus {}
-
-/* .hero:click {
-    display: none;
-    visibility: hidden;
-} */
-/* New CSS for the rendered Hero component */
- 
 .hero {
   margin-top: 0.03rem;
   margin-left: -880px;
@@ -183,10 +88,7 @@ height: 102px;
 .hero .hero:hover {
   box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
 }
-/*End of ---  New CSS for the rendered Hero component */
 
-/* Hero Two ======================================== */
- 
 .hero2 {
     margin-top: .09rem;
     margin-left: -880px;
@@ -222,7 +124,6 @@ height: 102px;
     width: 15em;
     height: 8em;
     border-radius: 4%;
-    /* display: block; */
 }
 
 .imgWhiteLogo2 {
@@ -250,13 +151,11 @@ height: 102px;
 .vl2{
     margin-left: 90px;
     margin-top: -15px;
-    /* margin-right: -2px;  */
 }
 .divider--enginesize2 {
     display: flex;
     margin-top: 40px;
     margin-left: -260px;
-    /* margin-right: -2px; */
     gap: 21px;
 }
 
@@ -268,20 +167,6 @@ height: 102px;
     gap: 12px;
 }
 
-.hr--price {
-    /* width: 2px;  
-      background-color: black;  
-      height: 100%;  
-      float: left;   */
-}
-
-/* .vl {
-    margin-left: 90px;
-    margin-top:-30px;
-border-left: 1.5px solid #D3D3D3;
-height: 102px;
-}
-  */
 .divider--price2 {
     margin-right: 130px;
 }
@@ -317,7 +202,6 @@ height: 102px;
     margin-top: 10px;
     margin-left: -9px;
     display: none;
-    /* box-shadow: 0px 5px 2.98256px 1px rgba(0, 0, 0, 0.1); */
     box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
@@ -353,9 +237,7 @@ height: 102px;
 
 
 
-/* ======Hero2B====== */
 .hero:onclick {
-    /* display: none; */
     visibility: hidden;
 }
 
@@ -368,7 +250,6 @@ height: 102px;
 }
 
 .Hero2B p {
-    /* margin-left: 430px; */
     margin-top: 13px;
     margin-bottom: -10px;
     font-family: Rubik, sans-serif;
@@ -408,7 +289,6 @@ height: 102px;
   margin-left: 15.5px;
   margin-right: 7px;
   font-size: 18px;
-  /* line-height: 1.5em!important; */
   white-space: normal;
   font-weight: 400;
   line-height: 130%;
@@ -426,20 +306,6 @@ height: 102px;
     gap: 0px;
     padding-left: 230px;
 }
-/* .first--column p:first-child {
-    margin-bottom: 7px; 
-  }  */
-
-  /* .first--column p:not(:first-child) {
-    padding-top: 10px; 
-  }  */
-
-  /* .first--column .mileage::after {
-    content: "\00a0";  
-    display: inline-block;
-    width: 100px;
-  }
-   */
    .first--column .mileage {
     display: inline-block;
     margin-bottom: 10px;
@@ -598,11 +464,6 @@ height: 102px;
     cursor: pointer;
 }
 
-
- /* ======iframes========= */
-  .iframe__top{
-
-  }
   .number {
     width: 34px;
     height: 30px;
@@ -678,21 +539,6 @@ height: 102px;
     position: relative;
   }
      
-     
-
-  /* .Hero2B_Number .enlarged::before {
-    content: "";
-    position: absolute;
-    top: -14px;
-    left: 50%;
-    transform: translateX(-50%);
-    border-left: 5.5px solid transparent;
-    border-right: 5.5px solid transparent;
-    border-bottom: 10px solid;
-    border-top: 10px solid  ;
-  }
-   */
-
    .Hero2B_Number .enlarged::before {
     content: "";
     position: absolute;
@@ -766,7 +612,6 @@ height: 102px;
   }
 
 
-  /* ================= */ 
   
 @media (max-width: 414px) {
   .hero--container{
@@ -774,11 +619,10 @@ height: 102px;
   }
   .hero{  
     width: 26.5rem;
-    margin-left: -40rem;  /*main main main  */
+    margin-left: -40rem;  
   }
   .cars {
-    /* display: none; */
-    margin-left: -31rem;  /*main main main  */
+    margin-left: -31rem;   
   }
  
   .divider--price{
@@ -787,7 +631,6 @@ height: 102px;
     margin-left: 12rem;
   } 
   .vl{
-    /* margin-top: -0.5rem; */
     font-size: 15px;
     margin-left: 14.5rem;
   }
@@ -798,7 +641,6 @@ height: 102px;
   
   .cardetails--container .divider--enginesize{
     margin-right: -20rem;
-    /* margin-left: -10rem; */
     margin-bottom: -1rem;
   }
   .divider--enginesize .mediaquery {
