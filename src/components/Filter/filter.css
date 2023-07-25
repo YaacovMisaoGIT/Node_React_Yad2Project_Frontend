@@ -2,7 +2,6 @@
   background-color: white;
   display: flex;
   flex-wrap: wrap;
-  /* gap: 10px; */
   align-items: center;
   margin-top: 260px;
   margin-bottom: 200px;
@@ -12,8 +11,6 @@
   box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
   padding: 7px;
   position: relative;
-  /* display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr ; */
 }
 
 .filter-item {
@@ -28,21 +25,15 @@
 
 .hello {
   margin-left: 100px;
-  /*move left-r*/
   margin-top: 0px;
-  /* flex-grow: 1; */
 }
 
 .search-button-container {
   margin-left: 58.7rem;
-  /*move left-r*/
   display: flex;
   justify-content: flex-end;
-  /* Align the button to the right */
   align-items: center;
-  /* Center the button vertically */
   margin-right: 7px;
-  /* Adjust the margin as needed */
 }
 
 .advanced_search {
@@ -54,7 +45,6 @@
   font-size: 15px;
 }
 
-/* ======button======= */
 .allpurpose_button {
   margin-top: -899px;
   background-color: #FF7100;
@@ -66,14 +56,11 @@
 }
 
 label {
-  /* color: #ccc ; */
   font-size: 1rem;
   width: 100%;
-  /* position: absolute; */
   bottom: 0;
   right: 0;
   left: 0;
-  /* border: 1px solid #ccc; */
 }
 
 select,
@@ -97,7 +84,6 @@ input[type='number'] {
   cursor: pointer;
 }
 
-/* ===sort===== */
 
 .sort-item {
   margin-left: 70.3em;
@@ -108,29 +94,6 @@ input[type='number'] {
   margin-left: -3.5em;
   position: absolute;
   padding-top: 4px;
-}
-
-
-
-/* Styles for the dropdown */
-/* .dropdown {
-  position: relative;
-  display: inline-block;
-  margin-left: 1130px;
-  margin-bottom: 20px;
-  padding-top: -20px;
-}
-
-.dropdown-list {
-  display: none;
-  position: absolute;
-  z-index: 1;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  padding: 10px;
-  margin-top: 5px;
-  list-style-type: none;
 }
 
 .dropdown-list li {
@@ -155,36 +118,14 @@ input[type='number'] {
   padding: 5px;
   border: 1px solid grey;
   cursor: pointer;
-} */
+}  
 
-
-
-
-/* ===sort===== */
-
-
-
-/* ============ Hero =========== */
-.hero {
-
-  /* margin-left: 400px; */
-  /* margin-right: -500px; */
-
-
-
-}
-
-/* ============ Hero =========== */
-
-
-/* ====FilterBottom===== */
 .filter_bottom {
   margin-top: 0rem;
   margin-left: 0rem;
 
 }
 
-/* ======side images ======== */
 
 .above_iframe {
   margin-left: 66.5rem;
@@ -264,15 +205,12 @@ input[type='number'] {
   margin-bottom: 30px;
 }
 
-/* Style for the page numbers */
 .filter_bottom span {
   margin: 0 10px;
-  /* Add a 3px margin between page numbers */
   cursor: pointer;
 }
 
 .filter_bottom_pagenumbers {
-  /* background-color: white; */
   width: 30rem;
   margin-left: -42rem;
   margin-top: 4rem;
@@ -280,14 +218,8 @@ input[type='number'] {
 
 .filter_bottom {
   margin-top: -10px;
-  /* display: flex; */
-  /* flex-direction: row; */
-  /* align-items: center; */
-  /* justify-content: center; */
-  /* background-color: white; */
 }
 
-/* Style for the current page */
 .filter_bottom span.active {
   background-color: #FDF0E4;
   color: orange;
@@ -346,7 +278,6 @@ input[type='number'] {
     margin-left: -4px;
   }
 
-  /* filter.css */
   .filter-container {
     display: none;
   } 
