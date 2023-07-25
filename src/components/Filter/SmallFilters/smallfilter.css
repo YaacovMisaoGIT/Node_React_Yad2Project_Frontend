@@ -1,0 +1,45 @@
+ 
+.filter_container{
+  margin-top: 0px;
+}
+.sort-item{
+  margin-left: 70.3em;
+  margin-top: -30px;
+}
+.sort-item p{
+  margin-left: -3.5em;
+  position: absolute;
+  padding-top: 4px;
+}
+
+
+ 
+.filter button{
+  padding: 5px  10px;
+  background-color: white;
+}
+.filter button:hover{
+  
+}
+  .filter{
+    margin-left: 31.5rem;
+    margin-top: -3rem;
+    margin-bottom: 0;
+  } 
+
+  @media (max-width: 414px) {
+     .filter {
+    margin-left: 0.5rem;
+  }
+  .sort-item p {
+    margin-left: -63rem;
+  }
+  .sort-item select {
+    margin-left: -60rem;
+    font-size: 12px; /* Adjust the font size as needed */
+  }
+   
+
+}
+
+  
