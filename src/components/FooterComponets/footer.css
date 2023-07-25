@@ -2,8 +2,6 @@
   box-sizing: border-box;
   margin:0; 
   padding:0;
-  /* overflow: hidden; */
-  /* font-family: 'PT Sans', sans-serif; */
 } 
 .footer_wrapper{
    margin-top: 42rem;
@@ -38,7 +36,6 @@ footer {
 }
 
 .footer--para p {
-  /* color: rgb(177, 170, 170); */
   padding-top: 30px;
   margin-left: 13%;
   margin-right: 13%;
@@ -47,9 +44,6 @@ footer {
   margin-top: -180px;
   display: flex;
   margin-left: 170px;
-}
-.footer--container {
-  /* column-gap: 230px; */
 }
 
 .footer-menu {
@@ -97,9 +91,6 @@ footer {
   fill: black;
 }
 .footer--logo:hover {
-  /* filter: drop-shadow(3px 3px rgb(48, 59, 53)) sepia(1000%) drop-shadow(-3px -3px blue); */
-/* filter: opacity(60%); */
-  /* fill: #fff */
   filter:  invert(40)
 }
 
@@ -126,7 +117,6 @@ hr {
 .col--last a {
   text-decoration: none;
   color: whitesmoke;
-  /* margin-right: 10%; */
 }
 
 .col--last {
@@ -152,7 +142,6 @@ hr {
   display: flex;
   justify-content: center;
   color: whitesmoke;
-  /* padding-left: 45px; */
   margin-bottom: 1em;
 }
 .version h3 {
@@ -165,8 +154,6 @@ hr {
   cursor: pointer;
 }  
 
-/* =====responsive iPhone11 ========  */ 
-   /* CSS for devices with a maximum width of 414px (iPhone 11 portrait) */
 @media (max-width: 414px) {
   .footer_wrapper{
     width: 103vw;
@@ -182,11 +169,8 @@ hr {
     font-size: 10px;
     font-weight:600;
   }
-  .footer-menu li{
-    /* display: none; */
-  }
+  
   .footer-menu ul li{
-    /* display: none;  */
     font-size: 11px; 
     overflow: 'hidden';
   }
@@ -194,8 +178,6 @@ hr {
     text-decoration: underline;
    }
    .footer--icons { 
-    /* width: 30%; */
-    /* margin-top: -520px; */
     margin-left: 27%;
     width: 60%;
     margin-bottom:690px;
@@ -217,12 +199,7 @@ hr {
 
   .col--last {
       display: inline; 
-      /* display: flex; */
-      /* flex-wrap: nowrap; */
-      /* justify-content: center; */
-      /* gap: 10px; */
-      max-height: 48px; /* Adjust the height as needed */
-      /* overflow: hidden; */
+      max-height: 48px;  
       font-size: 13px;
     } 
 
@@ -231,7 +208,6 @@ hr {
       display: flex;
       justify-content: center;
       color: whitesmoke;
-      /* padding-left: 45px; */
       margin-bottom: 1em;
     }
     .version h3 {
@@ -244,11 +220,7 @@ hr {
       cursor: pointer;
     } 
     hr {
-      /* margin-top: 1.5em; */
       width: 320px;
-      /* display: block; */
-      /* height: 1px; */
-      /* border: 0; */
       border-top: 1.3px solid grey;
       margin-left: 7%;
     }
