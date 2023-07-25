@@ -18,9 +18,7 @@
   padding: 5px  10px;
   background-color: white;
 }
-.filter button:hover{
-  
-}
+ 
   .filter{
     margin-left: 31.5rem;
     margin-top: -3rem;
@@ -36,10 +34,8 @@
   }
   .sort-item select {
     margin-left: -60rem;
-    font-size: 12px; /* Adjust the font size as needed */
+    font-size: 12px;  
   }
-   
-
 }
 
   
