@@ -19,7 +19,7 @@ function Main() {
 
 useEffect(() => {
 const fetchCars = async () => {
-  let url = 'https://yad2back.onrender.com/api/carData';
+  let url = 'https://yad2back.onrender.com';
 
   // filtering parameters to the URL
   if (selectedManufacturer !== '') {
