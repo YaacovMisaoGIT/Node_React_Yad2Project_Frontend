@@ -19,7 +19,7 @@ function Main() {
 
 useEffect(() => {
 const fetchCars = async () => {
-  let url = 'https://yaacovbackend.onrender.com/api/cars';
+  let url = '/api/cars';
 
   // filtering parameters to the URL
   if (selectedManufacturer !== '') {
@@ -29,7 +29,7 @@ const fetchCars = async () => {
       url += `&model=${selectedModel}`;
     }
   }
-
+  console.log(url)
   const response = await fetch(url);
   const json = await response.json();
 
