@@ -19,7 +19,7 @@ function Main() {
 
 useEffect(() => {
 const fetchCars = async () => {
-  let url = 'https://backend-8xuq.onrender.com/api/cars';
+  let url = 'https://backend-8xuq.onrender.com/api/carData';
 
   // filtering parameters to the URL
   if (selectedManufacturer !== '') {
