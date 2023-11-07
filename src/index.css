@@ -1,1 +1,83 @@
-*,body{margin:0}header,nav{display:flex;padding:20px 36px;box-shadow:0 2.98256px 7.4564px rgba(0,0,0,.1)}.burger_div2,.burger_div3{height:.25rem;background-color:#333}*{box-sizing:border-box;padding:0}body{background-color:#f9f9f9}nav{height:70px}nav img{height:45px;width:65px}header{height:60px;text-decoration:none}header a,nav a{text-decoration:none;color:#000}.nav--logo{max-width:100px}.nav_menu{text-align:center}.burger_div2{margin-top:0}.burger_div3{width:2rem}.iframe__leftcorner{margin-left:60px;margin-top:90px}.home__flex{display:grid;grid-template-columns:1fr 1fr;column-gap:0}.home{margin-top:8px}.above_iframe{margin-left:66.5rem;margin-bottom:-1.5px}.above_iframe img{width:20rem;height:2.5rem}.image-container-fressbe{margin-top:-95rem;height:10px}.image-container-fressbe img{width:65rem;height:60px;margin-left:70px}.image-container-fressbe:hover{cursor:pointer}.image-container-left{margin-top:160px;margin-left:-230px}.image-container-left img,.image-container-right img{width:135px;height:700px}.image-container-right{margin-top:-695px;margin-left:1230px}.image-container-sidefull1{margin-top:-42rem}.image-container-sidefull1 img{width:18rem;height:35rem}.image-container-sidefull2{margin-top:0}.image-container-sidefull2 img{width:18rem;height:40rem}.image-container-bottom img{width:1188px;height:560px}.image-container-bottom{margin-top:35px;background-color:#f9f9f9}
+* {
+    box-sizing: border-box;
+    margin:0; 
+    padding:0;
+    /* overflow: hidden; */
+    /* font-family: 'PT Sans', sans-serif; */
+    /* max-width: 100%; */ 
+    /* overflow-x: auto; */
+}
+
+body {
+    margin: 0;
+    background-color:  #F9F9F9;
+}
+ 
+.iframe__top{
+    margin-left: 160px;
+    height: 190px;
+    width: 1170px;
+}
+ 
+ 
+.home__flex{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 0px;
+} 
+
+.home {
+  margin-top: 8px;
+}
+ 
+  
+   
+ 
+ 
+   
+   .image-container-left {
+     margin-top: 160px;
+     margin-left: -230px;
+   }
+   .image-container-left img {
+     width: 135px;
+     height: 700px;
+   }
+   
+   .image-container-right {
+     margin-top: -695px;
+     margin-left: 1230px;
+   }
+   .image-container-right img {
+     width: 135px;
+     height: 700px;
+   }
+   
+   .image-container-sidefull1 {
+     margin-top: -42rem;
+   }
+   .image-container-sidefull1 img {
+     width: 18rem;
+     height: 35rem;
+   }  
+   
+   .image-container-sidefull2 {
+     margin-top: 0rem;
+   }
+   .image-container-sidefull2 img {
+     width: 18rem;
+     height: 40rem;
+   }
+   
+   .image-container-bottom img {
+     width: 1188px;
+     height: 560px;
+   } 
+   .image-container-bottom {
+     margin-top: 35px; 
+     background-color: #F9F9F9;
+   }
+   
+   
+
+ 
