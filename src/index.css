@@ -1,13 +1,4 @@
-* {
-    box-sizing: border-box;
-    margin:0; 
-    padding:0;
-    /* overflow: hidden; */
-    /* font-family: 'PT Sans', sans-serif; */
-    /* max-width: 100%; */ 
-    /* overflow-x: auto; */
-}
-
+ 
 body {
     margin: 0;
     background-color:  #F9F9F9;
@@ -80,4 +71,4 @@ body {
    
    
 
- 
+  

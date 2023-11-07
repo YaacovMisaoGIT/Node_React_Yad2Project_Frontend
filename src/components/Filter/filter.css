@@ -1,4 +1,4 @@
-/* .filter-top {
+.filter-top {
   background-color: white;
   display: flex;
   flex-wrap: wrap;
@@ -282,5 +282,4 @@ input[type='number'] {
     display: none;
   } 
 
-} */
-
+}
